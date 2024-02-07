@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" type="text/css" href="./src/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <div>
+      <img src="public/back.jpg">
+      <img id="carta" src="public/back.jpg">
     </div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+    <div class="botones">
+      <button id="botonDame">Dame carta</button>
+      <button id="botonPlanto">Me planto</button>
+      <button style="display:none;" id="nuevaPartida">Nueva partida</button>
+      <button style="display:none;" id="botonFuturo">¿Que hubiese pasado?</button>
+    </div> 
+    <div>
+      <div class="mensajeBot" id="puntuacion"></div>
+    </div>
+    <div>
+      <div class="mensajeTop" id="mensajePlantar"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
