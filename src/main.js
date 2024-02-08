@@ -105,7 +105,7 @@ var mePlanto = function () {
         mensajePlantarElement.innerHTML = mensaje;
     }
     if (puntuacion < 4) {
-        mensaje = "Has sido muy conservador";
+        mensaje = "Has sido muy conservador...";
     }
     else if (puntuacion <= 5) {
         mensaje = "¿Te has hecho caquita eh?";
