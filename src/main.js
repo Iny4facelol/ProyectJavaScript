@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./style.css");
+
 var puntuacion = 0;
 function saltarNumero() {
     var generarNumero;
