@@ -14,20 +14,35 @@
     <div>
       <div class="mensajeTop" id="mensajePlantar"></div>
     </div>
-    <div>
-      <img src="./public/back.jpg">
-      <img id="carta" src="./public/back.jpg">
+    <div class="principalBox">
+      <div class="cardsBox">
+        <img class="cartaAbajo" src="./public/back.jpg">
+        <img id="carta" src="./public/back.jpg">
+      </div>
     </div>
     <div class="botones">
       <button id="botonDame">Dame carta</button>
       <button id="botonPlanto">Me planto</button>
       <button style="display:none;" id="nuevaPartida">Nueva partida</button>
       <button style="display:none;" id="botonFuturo">¿Que hubiese pasado?</button>
-    </div> 
+    </div>
     <div>
       <div class="mensajeBot" id="puntuacion"></div>
     </div>
+    <div class="instruccionesBox">
+      <p class="instrucciones">Normas del juego: 
 
+        El juego 7 y 1/2 es una variante del Blackjack. El objetivo es obtener una mano cuya suma total se aproxime lo
+        máximo posible a 7.5, sin pasarse. Si la suma de tus cartas excede 7.5, perderás automáticamente. Puedes decidir
+        plantarte en cualquier momento para evitar pasarte.
+        <br>
+        Cada carta numérica suma su valor nominal.
+        Las figuras (Sota, Caballo y Rey) suman 0.5 puntos.
+
+      </p>
+    </div>
+
+  </div>
   </div>
   <script type="module" src="./src/main.js"></script>
 </body>
