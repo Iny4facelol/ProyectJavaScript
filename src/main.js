@@ -51,37 +51,37 @@ var mostrarCarta = function (numero) {
     var imagen;
     switch (numero) {
         case 1:
-            imagen = '/1_as-copas.jpg';
+            imagen = './public/1_as-copas.jpg';
             break;
         case 2:
-            imagen = '/2_dos-copas.jpg';
+            imagen = './public/2_dos-copas.jpg';
             break;
         case 3:
-            imagen = '/3_tres-copas.jpg';
+            imagen = './public/3_tres-copas.jpg';
             break;
         case 4:
-            imagen = '/4_cuatro-copas.jpg';
+            imagen = './public/4_cuatro-copas.jpg';
             break;
         case 5:
-            imagen = '/5_cinco-copas.jpg';
+            imagen = './public/5_cinco-copas.jpg';
             break;
         case 6:
-            imagen = '/6_seis-copas.jpg';
+            imagen = './public/6_seis-copas.jpg';
             break;
         case 7:
-            imagen = '/7_siete-copas.jpg';
+            imagen = './public/7_siete-copas.jpg';
             break;
         case 0.5:
             var randomImgGenerator = Math.floor(Math.random() * 3) + 10;
             switch (randomImgGenerator) {
                 case 10:
-                    imagen = '/10_sota-copas.jpg';
+                    imagen = './public/10_sota-copas.jpg';
                     break;
                 case 11:
-                    imagen = '/11_caballo-copas.jpg';
+                    imagen = './public/11_caballo-copas.jpg';
                     break;
                 case 12:
-                    imagen = '/12_rey-copas.jpg';
+                    imagen = './public/12_rey-copas.jpg';
                     break;
             }
     }
