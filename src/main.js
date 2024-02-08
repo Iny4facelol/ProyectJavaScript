@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+
 
 var puntuacion = 0;
 function saltarNumero() {
